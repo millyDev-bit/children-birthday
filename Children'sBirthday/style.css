@@ -1,0 +1,505 @@
+
+body {
+  margin: 0;
+  font-family: 'Open Sans',sans-serif;
+}
+
+
+.top-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  color: black;
+  padding: 10px 20px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  font-size: 30px;
+  font-weight: 800;
+  font-family: "Lobster", serif;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 15px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #00bcd4;
+}
+
+.menu-icon{
+  display: none;
+  font-size: 25px;
+}
+
+
+
+
+
+.block{
+  height: 130vh;
+  background: url(https://images01.nicepagecdn.com/a1389d7bc73adea1e1c1fb7e/ae4462f2c5695f6b8864d081/front-view-kid-wearing-party-hat_23-2149477945.jpeg);
+  background-position: 50% 50%;
+  background-size: cover;
+}
+.box0{
+  height: fit-content;
+}
+.box{
+  height: fit-content;
+  position: relative;
+}
+.bob{
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  width: 737px;
+  height: 357px;
+  background: white;
+  position: absolute;
+  left: 0;
+  top: 300px;
+}
+.bob h1{
+  font-size: 96px;
+  font-weight: 400;
+  line-height: 1.1;
+  margin: 44px 0 0 99px;
+  color: #f1c50e;
+  text-align: left;
+  font-family: "Lobster", serif;
+}
+.bob h3{
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 1;
+  margin: 0 92px 0 99px;
+  font-family: sans-serif;
+}
+.bob p{
+  margin: 32px 92px 0 99px;
+  text-align: left;
+}
+
+
+
+.block1{
+  height: 80vh;
+  background: url(https://images01.nicepagecdn.com/a1389d7bc73adea1e1c1fb7e/e488fd2c86fc54058cb04108/Untitled-1.jpg);
+  background-size: cover;
+  background-position: 50% 0%;
+}
+.box01{
+  height: fit-content;
+}
+.box1{
+  height: fit-content;
+}
+.box1 h2{
+  font-size: 48px;
+  text-align: center;
+  margin: 70px auto 0;
+  font-family: "Lobster", serif;
+  font-weight: 700;
+  line-height: 1.1;
+}
+.bob1{
+  width: 250px;
+  height: 282px;
+  text-align: center;
+  padding-top: 20px;
+  margin: auto;
+}
+.bob1 img{
+  width: 103px;
+  height: 103px;
+  object-fit: cover;
+}
+.bob1 h5{
+  font-family: sans-serif;
+  font-weight: 500;
+  margin: 30px auto 0;
+  font-size: 20px;
+  line-height: 1.2;
+}
+.bob1 p{
+  margin: 20px auto 0;
+}
+
+
+
+.block2{
+  height: fit-content;
+  background: #fef9e6;
+}
+.box02{
+  height: fit-content;
+}
+.box2{
+  height: fit-content;
+}
+.box2 h2{
+  font-size: 48px;
+  text-align: center;
+  margin: 70px auto 0;
+  font-family: "Lobster", serif;
+  font-weight: 700;
+  line-height: 1.1;
+}
+.bob2{
+  width: 361px;
+  height: 506px;
+  text-align: center;
+  background: white;
+  margin: 20px auto;
+  transition: 0.5s;
+}
+.bob2:hover{
+  transform: scale(1.2);
+}
+.image2{
+  background: url(https://images01.nicepagecdn.com/a1389d7bc73adea1e1c1fb7e/04ee3ddda8d95834bb92e570/portrait-young-woman-casual-clothes-with-blonde-dyed-hair-gently-smiling-during-pleasant-conversation-standing-closed-posture.jpg);
+  background-size: cover;
+  background-position: 100% 50%;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  margin: 30px auto;
+}
+.image3{
+  background: url(https://images01.nicepagecdn.com/a1389d7bc73adea1e1c1fb7e/861162f869e650e0b7798f66/08a3461f-6e0c-4b94-8524-b2fc1f0ce15b.jpg);
+  background-size: cover;
+  background-position: 100% 50%;
+  width: 257px;
+  height: 257px;
+  border-radius: 50%;
+  margin: 30px auto;
+}
+.image4{
+  background: url(https://images01.nicepagecdn.com/a1389d7bc73adea1e1c1fb7e/ec8c600040e354359214d93e/pexels-gustavo-fring-3983570.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+  width: 257px;
+  height: 257px;
+  border-radius: 50%;
+  margin: 30px auto;
+}
+.image5{
+  background: url(https://images01.nicepagecdn.com/a1389d7bc73adea1e1c1fb7e/aa992c2ac381589d9df42a92/portrait-cheerful-handsome-bearded-guy-with-fashionable-hairstyle-smiling1.jpg);
+  background-size: cover;
+  background-position: 0% 50%;
+  width: 257px;
+  height: 257px;
+  border-radius: 50%;
+  margin: 30px auto;
+}
+.image6{
+  background: url(https://images01.nicepagecdn.com/a1389d7bc73adea1e1c1fb7e/572af275b87a559d93b354c8/travel-agent-hearing-customer-desires-portrait-good-looking-european-businesswoman-blue-blouse-glasses-holding-hands-pockets-smiling-being-friendl.jpg);
+  background-size: cover;
+  background-position: 99.03% 50%;
+  width: 257px;
+  height: 257px;
+  border-radius: 50%;
+  margin: 30px auto;
+}
+.bob2 h5{
+  font-size: 25px;
+  font-weight: 800;
+  margin: 30px auto 0;
+  font-family: sans-serif;
+  color: #f1c50e;
+  line-height: 1.2;
+}
+.bob2 p{
+  font-style: italic;
+  margin: 20px auto 0;
+  font-family: sans-serif;
+}
+.bob2 .icon2{
+  font-size: 60px;
+  font-weight: 700;
+  margin: 20px auto 0;
+}
+.bob2 .p{
+  margin-top: 70px;
+  padding: 30px;
+  text-align: left;
+  font-style: normal;
+}
+
+
+.block3{
+  height: fit-content;
+}
+.box03{
+  height: fit-content;
+}
+.box3{
+  height: fit-content;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+.box3 h2{
+  font-size: 48px;
+  text-align: center;
+  margin: 70px auto 0;
+  font-family: "Lobster", serif;
+  font-weight: 700;
+  line-height: 1.1;
+}
+.box3 img{
+  width: 352px;
+  height: 352px;
+  object-fit: cover;
+}
+.box3 p{
+  margin: 30px auto 0;
+}
+.box3 button{
+  padding: 17px 74px 18px 72px;
+  margin: 30px auto 60px;
+  text-transform: uppercase;
+  border-radius: 50px;
+  border: none;
+  background: #f1c50e;
+}
+.box3 button:hover{
+  background: black;
+  color: white;
+}
+
+
+
+.block4{
+  height: fit-content;
+  background: #f1c50e;
+  text-align: center;
+}
+.box04{
+  height: fit-content;
+}
+.box4{
+  height: fit-content;
+}
+.box4 h2{
+  font-size: 48px;
+  text-align: center;
+  margin: 70px auto 0;
+  font-family: "Lobster", serif;
+  font-weight: 700;
+  line-height: 1.1;
+}
+.box4 p{
+  margin: 20px auto 0;
+}
+.box4 button{
+  padding: 17px 74px 18px 72px;
+  margin: 30px auto 60px;
+  text-transform: uppercase;
+  border-radius: 50px;
+  border: none;
+  background: white;
+}
+.box4 button:hover{
+  background: lightgray;
+}
+
+
+
+.block5{
+  height: fit-content;
+  background: url(https://images01.nicepagecdn.com/a1389d7bc73adea1e1c1fb7e/e488fd2c86fc54058cb04108/Untitled-1.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+.box05{
+  height: fit-content;
+}
+.box5{
+  height: fit-content;
+}
+.bob3{
+  width: 400px;
+  height: 282px;
+  text-align: center;
+  padding-top: 20px;
+  margin: auto;
+}
+.bob3 img{
+  width: 103px;
+  height: 103px;
+  object-fit: cover;
+}
+.bob3 h5{
+  margin: 20px auto 0;
+}
+.bob3 p{
+  display: block;
+  font-size: 16px;
+  margin: 20px auto 0;
+}
+
+
+
+.block6{
+  height: fit-content;
+  background: #fef9e6;
+}
+.box06{
+  height: fit-content;
+}
+.box6{
+  height: fit-content;
+  padding: 30px 0;
+  padding-bottom: 80px;
+}
+.box6 h2{
+  font-size: 48px;
+  text-align: center;
+  margin: 70px auto 0;
+  font-family: "Lobster", serif;
+  font-weight: 700;
+  line-height: 1.1;
+}
+.bob6{
+  width: 350px;
+  height: 393px;
+  background: white;
+  margin: auto;
+  text-align: center;
+  transition: 0.5s;
+}
+.bob6:hover{
+  transform: scale(1.2);
+}
+.image7{
+  width: 83px;
+  height: 83px;
+  object-fit: cover;
+  margin: 40px auto 0;
+  border-radius: 50px;
+  background: url(https://images01.nicepagecdn.com/a1389d7bc73adea1e1c1fb7e/43bdaa24bc855997be21ba58/516befa0-bbfa-454c-acd8-11ce10a95795.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+.image8{
+  width: 83px;
+  height: 83px;
+  object-fit: cover;
+  margin: 40px auto 0;
+  border-radius: 50px;
+  background: url(https://images01.nicepagecdn.com/a1389d7bc73adea1e1c1fb7e/1ba281bdcfe851808b5b82fe/4fa35b60-d6ac-4d3a-a759-df3d04979186.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+.image9{
+  width: 83px;
+  height: 83px;
+  object-fit: cover;
+  margin: 40px auto 0;
+  border-radius: 50px;
+  background: url(https://images01.nicepagecdn.com/a1389d7bc73adea1e1c1fb7e/e16598fa3aca545a98eedca0/pexels-kha-ruxury-12836129.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+.image10{
+  width: 83px;
+  height: 83px;
+  object-fit: cover;
+  margin: 40px auto 0;
+  border-radius: 50px;
+  background: url(https://images02.nicepagecdn.com/a1389d7bc73adea1e1c1fb7e/86777a40c3b15bc3b2fe0b64/pexels-christina-morillo-1181391.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+.image11{
+  width: 83px;
+  height: 83px;
+  object-fit: cover;
+  margin: 40px auto 0;
+  border-radius: 50px;
+  background: url(https://images01.nicepagecdn.com/a1389d7bc73adea1e1c1fb7e/4492e4958bc3531f8ad93710/pexels-hebert-santo-9708442.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+.image12{
+  width: 83px;
+  height: 83px;
+  object-fit: cover;
+  margin: 40px auto 0;
+  border-radius: 50px;
+  background: url(https://images01.nicepagecdn.com/a1389d7bc73adea1e1c1fb7e/c5ace43d8b0352a68fbc29ee/pexels-reyna-montgomery-12093797.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+.bob6 h5{
+  font-size: 20px;
+  font-weight: 700;
+  margin: 20px 0 0;
+  line-height: 1.2;
+}
+.bob6 p{
+  margin: 20px 0 0;
+  padding: 0 40px;
+  color: gray;
+}
+.text{
+  text-transform: uppercase;
+}
+.line{
+  border: 1px solid #f1c50e;
+  width: 299px;
+  height: 1px;
+  margin: 30px auto 0;
+}
+
+
+
+
+
+
+
+
+
+.bottom-menu {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  display: none;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.menu-item {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 14px;
+}
+
+.menu-item .icon {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.menu-item:hover {
+  color: #00bcd4;
+}
